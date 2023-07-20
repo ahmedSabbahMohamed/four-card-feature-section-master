@@ -10,7 +10,7 @@ const hOneVariant = {
         opacity: 1,
         transition: {
             delay: .5,
-            duration: 1,
+            duration: .2,
             type: "spring",
             stiffness: 200
         }
@@ -33,7 +33,7 @@ function Header() {
             <motion.p
                 initial={{ opacity: 0}}
                 animate={{ opacity: 1}}
-                transition={{ delay: .5, duration: .5}}
+                transition={{ delay: .7, duration: .5}}
                 className="text-gblue max-w-lg mx-auto px-1">
                 Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful
             </motion.p>
